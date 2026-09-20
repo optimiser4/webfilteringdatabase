@@ -25,5 +25,12 @@
         "domain categorization",
         "firewall categories",
         "cipa"
-    ]
+    ],
+    "suggest": {
+        "websitecategorization/websitecategorizationapi": "Website Categorization API: classify any URL into IAB content categories",
+        "aitoolsblocklist/aitoolsblocklist": "AI Tools Blocklist: 20,000+ AI-tool domains in 18 categories, refreshed daily",
+        "urlcategorizationdatabase/urlcategorizationdatabase": "URL Categorization Database: 120M+ domains with IAB tier 1 and tier 2 categories",
+        "shadowaitools/shadowaitools": "Shadow AI Tools: detect AI tool usage from DNS, proxy and firewall exports",
+        "aiagentallowlist/aiagentallowlist": "AI Agent Allowlist: per-URL allow/deny verdicts for web-browsing AI agents"
+    }
 }
