@@ -1,0 +1,45 @@
+{
+  "name": "webfilteringdatabase",
+  "version": "1.0.0",
+  "description": "Node.js client for the Web Filtering Database API: classify any domain or URL into 59 web filtering categories plus IAB content categories, from a database of 120M+ categorized domains built for firewalls, DNS resolvers and secure web gateways.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node -e \"const C=require('./');const c=new C('x');if(typeof c.classify!=='function')process.exit(1);console.log('ok')\""
+  },
+  "keywords": [
+    "web filtering",
+    "content filtering",
+    "url categorization",
+    "domain categorization",
+    "website classification",
+    "dns filtering",
+    "secure web gateway",
+    "cipa",
+    "parental controls",
+    "acceptable use policy",
+    "iab taxonomy",
+    "url database",
+    "firewall categories",
+    "domain intelligence"
+  ],
+  "author": "Alpha Quantum <info@alpha-quantum.com>",
+  "license": "MIT",
+  "homepage": "https://www.webfilteringdatabase.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/explainableaixai/webfilteringdatabase"
+  },
+  "bugs": {
+    "url": "https://www.webfilteringdatabase.com/contact.php"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
