@@ -1,0 +1,29 @@
+{
+    "name": "webfilteringdatabase/webfilteringdatabase",
+    "description": "Web Filtering Database: 120M+ domains classified into 59 web filtering categories for firewalls, DNS resolvers and secure web gateways",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "homepage": "https://www.webfilteringdatabase.com",
+    "support": {
+        "source": "https://github.com/optimiser4/webfilteringdatabase",
+        "docs": "https://www.webfilteringdatabase.com/api-docs.php"
+    },
+    "authors": [
+        {
+            "name": "Alpha Quantum",
+            "email": "info@alpha-quantum.com",
+            "homepage": "https://www.alpha-quantum.com"
+        }
+    ],
+    "keywords": [
+        "web filtering",
+        "content filtering",
+        "url categorization",
+        "dns filtering",
+        "secure web gateway",
+        "domain categorization",
+        "firewall categories",
+        "cipa"
+    ]
+}
